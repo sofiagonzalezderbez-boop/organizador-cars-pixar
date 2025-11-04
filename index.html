@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>⚡ Calendario del Campeón - McQueen Style</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <main class="container">
+    <h1>⚡ ¡KA-CHOW! ⚡</h1>
+    <p class="intro">¡Vamos, piloto! Marca tu próxima carrera antes de que el semáforo se ponga en verde 🏁</p>
+
+    <form class="form-container">
+      <label for="title">Nombre del evento:</label>
+      <input type="text" id="title" placeholder="Gran Premio de Radiador Springs" />
+
+      <label for="date">Fecha:</label>
+      <input type="date" id="date" />
+
+      <label for="urgency">Nivel de urgencia:</label>
+      <select id="urgency">
+        <option value="baja">🚗 Baja</option>
+        <option value="media">🏎️ Media</option>
+        <option value="alta">🔥 Alta</option>
+      </select>
+
+      <button id="addEvent" class="turbo-btn">
+        🏁 ¡Agregar al Calendario!
+        <span class="rayo"></span>
+      </button>
+    </form>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
